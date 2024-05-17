@@ -1,5 +1,5 @@
 {
-	"name": "htcode-gulp-sass-boilerplate",
+	"name": "generator-htcode-gulp-sass-boilerplate",
 	"version": "1.0.7",
 	"description": "Generates a scaffolding for a front-end workflow with Gulp and Sass",
 	"main": "index.js",
