@@ -1,0 +1,19 @@
+//! SASS Functions (on documentation)
+@use 'sass:math';
+
+//? ***************************************** Convert pixels to rems
+@function rem($pixel) {
+	@if math.is-unitless($pixel) {
+		@return math.div($pixel, 16) + rem;
+	} @else {
+		@error 'Don\'t use units when using the rem() function; only numbers.';
+	}
+}
+//? ***************************************** Convert pixels to ems
+@function em($pixel) {
+	@if math.is-unitless($pixel) {
+		@return math.div($pixel, 16) + em;
+	} @else {
+		@error 'Don\'t use units when using the em() function; only numbers.';
+	}
+}

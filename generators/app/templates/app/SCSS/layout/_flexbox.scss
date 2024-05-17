@@ -1,0 +1,21 @@
+@use '../util' as u;
+
+.flex {
+	display: flex;
+
+	&-jc-c {
+		justify-content: center;
+	}
+
+	&-jc-sb {
+		justify-content: space-between;
+	}
+
+	&-ai-c {
+		align-items: center;
+	}
+
+	&-dir-col {
+		flex-direction: column;
+	}
+}
