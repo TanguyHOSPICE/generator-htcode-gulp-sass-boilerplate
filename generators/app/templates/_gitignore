@@ -1,7 +1,0 @@
-// #Ignore node modules
-node_modules/
-
-// #dist folder
-dist/
-
-// #Copy of gitignore w/ new file name due to npm bug
