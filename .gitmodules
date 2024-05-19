@@ -1,3 +1,6 @@
 [submodule "templates"]
+	path = templates
+	url = https://github.com/TanguyHOSPICE/SetUp-Sass-with-Gulp-boilerplate
+[submodule "generators/app/templates"]
 	path = generators/app/templates
 	url = https://github.com/TanguyHOSPICE/SetUp-Sass-with-Gulp-boilerplate
