@@ -1,6 +1,6 @@
-const Generator = require('yeoman-generator');
+import Generator from 'yeoman-generator';
 
-module.exports = class extends Generator {
+export default class extends Generator {
 	welcome() {
 		this.log('Welcome to the Gulp and Sass Generator!');
 	}
@@ -31,4 +31,4 @@ module.exports = class extends Generator {
 		);
 		this.log(' ');
 	}
-};
+}

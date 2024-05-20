@@ -14,5 +14,6 @@
 		"url": "https://github.com/TanguyHOSPICE/generator-htcode-gulp-sass-boilerplate.git"
 	},
 	"author": "HtCode",
-	"license": "ISC"
+	"license": "ISC",
+	"type": "module"
 }
